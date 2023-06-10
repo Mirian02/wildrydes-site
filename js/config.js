@@ -5,6 +5,6 @@ window._config = {
         region: 'us-east-1gi' // e.g. us-east-2
     },
     api: {
-        invokeUrl: '' // e.g. https://jleiger2ek.execute-api.us-east-1.amazonaws.com/prod',
+        invokeUrl: 'https://jleiger2ek.execute-api.us-east-1.amazonaws.com/prod' // e.g. ',
     }
 };
