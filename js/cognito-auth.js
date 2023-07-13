@@ -23,8 +23,7 @@ var WildRydes = window.WildRydes || {};
 
     if (typeof AWSCognito !== 'undefined') {
         AWSCognito.config.region = _config.cognito.region;
-    }
-
+=
     WildRydes.signOut = function signOut() {
         userPool.getCurrentUser().signOut();
     };
